@@ -72,6 +72,7 @@ button {
     border: 3px solid #f36e20;
     padding: 5px;
     font-size: 30px;
+    align-items: center;
 }
 
 button:hover {

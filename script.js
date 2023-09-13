@@ -6,3 +6,4 @@ greet.addEventListener("click", function () {
 
     alert("I agree, " + joy + " does spark joy!")
 })
+
