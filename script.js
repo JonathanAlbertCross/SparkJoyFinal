@@ -7,7 +7,6 @@ greet.addEventListener("click", function () {
     alert("I agree, " + joy + " does spark joy!")
 })
 // 
-let username = prompt("What is your name?")
 
 let message;
 
