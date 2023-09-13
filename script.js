@@ -6,8 +6,8 @@ greet.addEventListener("click", function () {
 
     alert("I agree, " + joy + " does spark joy!")
 })
-// 
 
+// This is the new JS
 let message;
 
 let username = prompt("What is your name?");
