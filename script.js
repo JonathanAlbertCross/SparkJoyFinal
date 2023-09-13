@@ -4,14 +4,14 @@ let username = prompt("What is your name?");
 // concatenation
 // console.log("Hello " + username);
 
-let time = prompt("What hour is it? (0-23)");
+let time = prompt("Choose a number between 1 and 3");
 
-if (time <= 11) {
-    message = "Good Morning!";
-} else if (time <= 17) {
-    message = "Good Afternoon!";
-} else if (time < 24) {
-    message = "Good Evening!";
+if (time == 1) {
+    message = "Yes! You are number one!";
+} else if (time == 2) {
+    message = "Why choose number 2?";
+} else if (time == "") {
+    message = "Does this 3 spark ";
 } else {
     message = "My friend, that is not a time!";
 }
