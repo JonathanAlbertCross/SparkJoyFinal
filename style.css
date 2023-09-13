@@ -105,6 +105,12 @@ body {
     color: #4f5254;
 }
 
+h1 {
+    size: 20px;
+    text-align: center;
+    color: #f36e20;
+}
+
 hr {
     margin-top: 100rem;
     margin-bottom: 100rem;

@@ -7,16 +7,16 @@ let username = prompt("What is your name?");
 let time = prompt("What hour is it? (0-23)");
 
 if (time <= 11) {
-    message = "Good morning";
+    message = "Good Morning!";
 } else if (time <= 17) {
-    message = "Good afternoon";
+    message = "Good Afternoon!";
 } else if (time < 24) {
-    message = "Good evening";
+    message = "Good Evening!";
 } else {
     message = "My friend, that is not a time!";
 }
 
-message = "Hello " + username + ". " + message;
+message = "Hello " + username + " -  " + message;
 document.write(message);
 
 // greet the user
