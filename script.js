@@ -8,9 +8,9 @@ let time = prompt("You do want to change your life?");
 
 let message;
 
-if (time == yes) or(time == Yes) {
+if (time == yes) {
     message = "Feel free to fill out the form";
-} else if (time == no) or(time == No) {
+} else if (time == no) {
     message = "You like living in nonsense?";
 } else {
     message = "My friend, that is not a time!";
