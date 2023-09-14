@@ -5,13 +5,13 @@ function greet() {
     let username = prompt("Please enter your name.");
     let message;
     let messageTwo
-    let time = prompt("Do want to make positive changes in your life?");
+    let time = prompt("Do want to make positive changes in your life? 'yes' or 'no'");
     if (time == "yes") {
         messageOne = "Let's get going!";
         messageTwo = "Fillout the form!";
     } else if (time == "no") {
         messageOne = "You like living in nonsense? ";
-        messageTwo = "That is disappointing!";
+        messageTwo = "Fill out the form to make sure! 😊";
     } else {
         messageOne = "";
         messageTwo = "Try again!";
