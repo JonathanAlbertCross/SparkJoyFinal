@@ -1,17 +1,17 @@
-let message;
+
 
 let username = prompt("What is your name?");
 // concatenation
 // console.log("Hello " + username);
 
-let time = prompt("Choose a number between 1 and 3");
+let time = prompt("You do want to change your life?");
 
-if (time == 1) {
-    message = "Yes! You are number one!";
-} else if (time == 2) {
-    message = "Why choose number 2?";
-} else if (time == "") {
-    message = "Does this 3 spark ";
+let message;
+
+if (time == yes) or(time == Yes) {
+    message = "Feel free to fill out the form";
+} else if (time == no) or(time == No) {
+    message = "You like living in nonsense?";
 } else {
     message = "My friend, that is not a time!";
 }
