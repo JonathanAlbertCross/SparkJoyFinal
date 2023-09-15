@@ -62,14 +62,19 @@
         <!--
               Form Start
             //-->
+
+        <div class="checkbox">
+
+        </div>
         <div class="background2">
             <div class="container d-flex justify-content-center">
                 <form>
                     <p class="lead">Are you...</p>
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="toggle" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
                         ...wanting to get rid of clutter in your life?
                     </label><br>
+
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                     <label class="form-check-label" for="flexCheckChecked">
                         ...surrounded by nonsense?
@@ -81,7 +86,7 @@
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                     <label class="form-check-label" for="flexCheckChecked">
                         ...weary of the mental disarray in your existence?
-                    </label>
+                    </label><br>
                     <br><br>
                     <p class="lead">Then Marie Kondo-ing your life,<br> by chucking out stuff that doesn't spark
                         joy,<br>is the answer. </p>
@@ -90,6 +95,8 @@
 
             </div>
         </div>
+
+
 
         <div class="text-center">
             <button onclick="spark()">✨Spark Joy Today✨ </button>
@@ -148,7 +155,7 @@
             </figcaption>
         </figure>
         <hr>
-
+        <script>getRating();</script>
 
     </main>
 

@@ -34,3 +34,11 @@ function spark() {
 
     alert("I agree, " + joy + " does spark joy!")
 }
+
+function getRating() {
+    let rating = prompt('Rate my site between 1 - 5', '5');
+
+    for (let i = 0; i < rating; i++) {
+        document.write("<img src = 'star.png'/>")
+    }
+}
