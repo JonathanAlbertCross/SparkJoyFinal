@@ -1,242 +1,240 @@
 body {
-    font: Helvetica;
-    font-family: sans-serif;
-
+  font: Helvetica;
+  font-family: sans-serif;
 }
 
 .swimming {
-    width: 30%;
+  width: 30%;
 }
 
 #spark {
-    background-color: #fdba15;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    font-size: 24px;
-
+  background-color: #fdba15;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
 }
 
 .background2 {
-    background-color: #fdba15;
-    padding: 10px;
-    border-spacing: 100px;
-    color: #4f5254;
+  background-color: #fdba15;
+  padding: 10px;
+  border-spacing: 100px;
+  color: #4f5254;
 }
 
-
 .questions {
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 3px;
-    word-spacing: 20px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+  word-spacing: 20px;
 }
 
 .marie {
-    color: #4f5254;
-    padding: 20px;
-    text-align: center;
+  color: #4f5254;
+  padding: 20px;
+  text-align: center;
 }
 
-
 header {
-    padding: 16px;
-    background-color: #fdba15;
-    color: white;
-    text-align: center;
+  padding: 16px;
+  background-color: #fdba15;
+  color: white;
+  text-align: center;
 }
 
 .logo {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 main {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 1rem;
-    min-height: 72vh;
-    background-color: #fdba15;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 72vh;
+  background-color: #fdba15;
 }
 
 footer {
-    background-color: #fdba15;
-    color: #ffffff;
-    text-align: center;
-    padding: 32px;
-    font-size: 24px;
+  background-color: #fdba15;
+  color: #ffffff;
+  text-align: center;
+  padding: 32px;
+  font-size: 24px;
 }
 
 button {
-    background: #ffffff;
-    color: #f36e20;
-    border: 3px solid #f36e20;
-    padding: 5px;
-    font-size: 30px;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    padding-top: 5px;
+  background: #ffffff;
+  color: #f36e20;
+  border: 3px solid #f36e20;
+  padding: 5px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 5px;
 }
 
-
-
 .button:hover {
-    color: #ffffff;
-    background: #f36e20;
-    border: 2px solid #fafafa;
-    font-size: 17px;
-    align-items: center;
-    text-align: center;
+  color: #ffffff;
+  background: #f36e20;
+  border: 2px solid #fafafa;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
 }
 
 body {
-    width: 100%;
-    position: relative;
-    background-color: #ffffff;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 
 .display-5 {
-    color: #4f5254;
-    text-align: center;
-
+  color: #4f5254;
+  text-align: center;
 }
 
 .lead {
-    text-align: center;
-    color: #4f5254;
+  text-align: center;
+  color: #4f5254;
 }
 
 .blockquote {
-    color: #4f5254;
+  color: #4f5254;
 }
 
 h1 {
-    size: 20px;
-    text-align: center;
-    color: #f36e20;
+  size: 20px;
+  text-align: center;
+  color: #f36e20;
 }
 
 p {
-    size: 20px;
-    text-align: center;
-    color: #4f5254;
+  size: 20px;
+  text-align: center;
+  color: #4f5254;
 }
 
 hr {
-    margin-top: 100rem;
-    margin-bottom: 100rem;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 100rem;
+  margin-bottom: 100rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 h5 {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .container-white {
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .heart {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
 }
 
 .me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .mo-fire {
-    width: 80px;
-    height: auto;
-    position: absolute;
-    left: 50%;
-    margin-left: 160px;
-    top: 90px;
+  width: 80px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: 160px;
+  top: 90px;
 }
 
 .mo-fire svg {
-    width: 100%;
-    height: auto;
-    position: relative
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
 .flame {
-    animation-name: flamefly;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    opacity: 0;
-    transform-origin: 50% 50% 0;
+  animation-name: flamefly;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  transform-origin: 50% 50% 0;
 }
 
 .flame.one {
-    animation-delay: 1s;
-    animation-duration: 3s;
+  animation-delay: 1s;
+  animation-duration: 3s;
 }
 
 .flame3.two {
-    animation-duration: 5s;
-    animation-delay: 1s;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 
 .flame-main {
-    animation-name: flameWobble;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  animation-name: flameWobble;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .flame-main.one {
-    animation-duration: 4s;
-    animation-delay: 1s;
+  animation-duration: 4s;
+  animation-delay: 1s;
 }
 
 .flame-main.two {
-    animation-duration: 3s;
-    animation-delay: 2s;
+  animation-duration: 3s;
+  animation-delay: 2s;
 }
 
 .flame-main.three {
-    animation-duration: 2.1s;
-    animation-delay: 3s;
+  animation-duration: 2.1s;
+  animation-delay: 3s;
 }
 
 .flame-main.four {
-    animation-duration: 3.2s;
-    animation-delay: 4s;
+  animation-duration: 3.2s;
+  animation-delay: 4s;
 }
 
 .flame-main.five {
-    animation-duration: 2.5s;
-    animation-delay: 5s;
+  animation-duration: 2.5s;
+  animation-delay: 5s;
 }
 
 @keyframes flameWobble {
-    50% {
-        transform: scale(1, 1.2) translate(0, -30px) rotate(-2deg);
-    }
+  50% {
+    transform: scale(1, 1.2) translate(0, -30px) rotate(-2deg);
+  }
 }
 
 @keyframes flamefly {
-    0% {
-        transform: translate(0) rotate(180deg);
-    }
+  0% {
+    transform: translate(0) rotate(180deg);
+  }
 
-    50% {
-        opacity: 1;
-    }
+  50% {
+    opacity: 1;
+  }
 
-    100% {
-        transform: translate(-20px, -100px) rotate(180deg);
-        opacity: 0;
-    }
+  100% {
+    transform: translate(-20px, -100px) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.loop-image {
+  max-height: 100px;
+  max-width: 100px;
 }
