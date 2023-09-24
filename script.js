@@ -3,13 +3,15 @@
 
 function greet() {
   let username = prompt("Please enter your name.");
-  alert("Hello " + username);
+  alert("Hello " + username + ".");
+  alert(" Welcome to the Spark Joy Website.");
   /*
   let message;
   let messageTwo;
 */
   let time = prompt(
-    "Do want to make positive changes in your life? 'yes' or 'no')"
+    "Do you make positive daily changes in your life? 'yes' or 'no')",
+    "yes"
   ).toLowerCase();
 
   while (time !== "yes" && time !== "no") {
@@ -17,9 +19,11 @@ function greet() {
   }
 
   if (time == "yes") {
-    alert("Let's get going! Fillout the form!");
+    alert("Me too!");
+    alert("You will find a helpful form to help you on the website.");
   } else if (time == "no") {
-    alert("You like living in nonsense? Fill out the form to make sure!");
+    alert("You like living in nonsense?");
+    alert("You will find a helpful form to help you on the website.");
   } else {
     alert("Try again!");
   }
@@ -59,6 +63,6 @@ function getRating() {
     rating = prompt("Please enter a number between 1 and 5!");
   }
   for (let counter = 0; counter < rating; counter++) {
-    document.write("<img src='star.png' class='loops-image'/>");
+    document.write("<img src='images/star.png' class='loops-image'/>");
   }
 }

@@ -18,7 +18,7 @@ body {
 .background2 {
   background-color: #fdba15;
   padding: 10px;
-  border-spacing: 100px;
+  border-spacing: 1000px;
   color: #4f5254;
 }
 
@@ -144,7 +144,7 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
 }
 
 .mo-fire {
@@ -237,4 +237,17 @@ h5 {
 .loop-image {
   max-height: 100px;
   max-width: 100px;
+}
+
+.loops-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 100px;
+}
+
+.loops-image:hover {
+  size: 2rem;
+  width: 120px;
 }
